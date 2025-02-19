@@ -47,3 +47,9 @@ for (col in columns_to_analyze) {
   # Print a separator between columns for better readability
   cat("\n------------------------------\n")
 }
+
+# Summarize the dataset using the built-in summary function
+cat("\n==============================\n")
+cat(" Summary of the entire dataset \n")
+cat("==============================\n")
+print(summary(df))
